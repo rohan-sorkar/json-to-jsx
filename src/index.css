@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.parent{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+label {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+input, select{
+  padding: 7px 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 2px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
