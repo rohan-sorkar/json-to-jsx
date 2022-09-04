@@ -3,3 +3,64 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.parent{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+h1{
+  margin-bottom: 30px;
+}
+input{
+  padding: 7px 15px;
+}
+h4{
+  margin-top: 15px;
+}
+.btn-group {
+  display: flex;
+  gap: 5px;
+}
+button {
+  padding: 5px 15px;
+  cursor: pointer;
+  background-color: rgb(26, 25, 25);
+  color: aliceblue;
+  font-weight: 800;
+  font-size: 18px;
+  border-radius: 10px;
+}
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+button:hover{
+  background-color: rgb(59, 58, 58);
+}
+button[disabled]:hover{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+h2{
+  margin-top: 40px;
+}
+li{
+  margin-left: 30px;
+  margin-top: 10px;
+  list-style: none;
+}
+p{
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.restore {
+  background-color: gold;
+  color: black;
+}
+.restore:hover {
+  background-color: goldenrod;
+}
